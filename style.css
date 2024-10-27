@@ -1,0 +1,299 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background-color: #fbeee6;
+}
+
+/* Bagian navbar */
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800px;
+    width: bold;
+    float: left;
+    font-family: 'Courier New', Courier;
+    color: #3A6D8C;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #D8D2C2;
+    z-index: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a { 
+    color: #3A6D8C;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+/* Bagian navbar end */
+
+/* Bagian header */
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: comic sans ms;
+    color: #3A6D8C;
+}
+
+.kolom h2 {
+    font-family: comic sans ms;
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #3A6D8C;
+    width: 100%;
+    line-height:50px;
+    text-align: justify;
+}
+
+.kolom p {
+    text-align: justify;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    line-height: 1.5;
+}
+
+a.tbl-biru {
+    background: #3A6D8C;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #CBDCEB;
+    text-decoration: none;
+}
+
+a.tbl-pink {
+    background: #CBDCEB;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink:hover {
+    background: #3A6D8C;
+    text-decoration: none;
+}
+
+h2 {
+    color: #3A6D8C;
+}
+/* Bagian header end */
+
+/* Bagian about */
+.about-content p {
+    line-height: 1.5;
+    padding-bottom: 0%;
+}
+/* Bagian about end */
+
+/* Bagian member */
+.member {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.bagian-member p {
+    line-height: 1.5;
+}
+/* Bagian member end */
+
+/* Bagian album */
+.container {
+    display: flex;
+}
+
+.album-content {
+    flex: 1;
+    width: 100%;
+    padding-inline-start: 20%;
+}
+
+.album-content h2 {
+    margin-bottom: 10px;
+}
+
+.album-content p {
+    margin-right: 20px;
+    padding-left: 1px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+ol {
+   padding-left: 50px; 
+   line-height: 1.5;
+}
+
+li {
+    opacity: 80%;
+}
+
+.album-image {
+    flex: 1;
+    margin-left: 40px;
+    padding-right: 40px;
+    overflow: hidden;
+    padding-top: 50px;
+}
+
+.album-image img {
+    display: block;
+    width: 700;
+    height: 400;
+}
+/* Bagian album end */
+
+/* Bagian shop */
+.shop-content{  
+    flex: 1;
+    padding-inline-start: 10%;
+}
+
+.shop-judul {
+    background-color: #F2EED7;
+    color: #3A6D8C;
+    text-align: center;
+    text-size-adjust: 20px;
+}
+
+.shop-form {
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-top: 0%;
+    line-height: 1.5;
+    text-align: justify;
+    padding-inline-end: 10%;
+    padding-top: 10%;
+}
+/* Bagian shop end */
+
+/* bagian achivment */
+.container-achiv {
+    display: flex;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.5;
+    padding-left: 15%;
+    margin-top: 15px;
+}
+.content-achiv {
+    background: #D8D2C2;
+    padding-inline-start: 8%; 
+    padding-right: 5%;   
+    border-radius: 10%;
+}
+.content-achiv h2 {
+    margin-top: 5%;
+    margin-bottom: 5px;
+    text-decoration: underline;
+    text-align: center;
+    color: #3A6D8C;
+}
+.content-achiv p {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #2f414d;
+}
+.image-achiv img {
+    padding-left: 15px;
+    border-radius: 15%;
+}
+/* Bagian achivment end */
+
+/* Bagian gallery */
+.content-gallery {
+    text-align: center;
+    padding-top: 5%;
+}
+.content-gallery p {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.media-gallery {
+    justify-content: center;
+}
+.media-gallery img {
+    margin: 5px;
+    justify-content: center;
+    padding-bottom: 4%;
+    padding-left: 10%;
+}
+/* Bagian gallery end */
+
+/* bagian media */
+.media{
+    padding-bottom: 5%;
+    padding-top: 20px;
+}
+.media h2 {
+    margin-bottom: 15px;
+    text-align: center;
+    word-spacing: 10px;
+}
+.media iframe {
+    margin-inline: 20px;
+    padding-left: 5%;
+}
+/* bagian media end */

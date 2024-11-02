@@ -295,5 +295,6 @@ li {
 .media iframe {
     margin-inline: 20px;
     padding-left: 5%;
+    border: none
 }
 /* bagian media end */
